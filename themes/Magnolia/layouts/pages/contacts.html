@@ -1,0 +1,60 @@
+{{ define "main"}}
+
+<div class="mx-xl-5 px-xl-5">
+  <div class="text-center mt-5">
+    <h1 class="mb-4 display-2">{{.Site.Params.contacts.title}}</h1>
+  </div>
+
+  <div class="row justify-content-center">
+      <p class="text-justify text-lg-start fs-3 badge mb-4" style="font-size: 100px;">
+          {{ .Site.Params.contacts.intro | markdownify}}
+      </p>
+      <h5 class="text-center mb-2">
+          {{.Site.Params.contacts.formCallToAction }}
+      </h5>
+
+      
+      <!-- end-form -->
+      {{ if .Site.Params.schedules.enabledContacts}}
+      <div class="col-lg-4 mb-3">
+          <div class="card h-100 p-4 shadow-sm">
+              <div class="card-body text-center d-flex align-items-around">
+                  <div class="row">
+                      <div class="col-12">
+                          <i class="display-4 bi-clock text-muted"></i>
+                          <h5 class="text-muted border-bottom border-3">
+                              {{.Site.Params.schedules.title}}
+                          </h5>
+                      </div>
+                      <div class="col-12 d-flex flex-wrap justify-content-center flex-row d-lg-block">
+                          {{range .Site.Params.schedules.days}} {{if . }}
+                          <p class="mx-2 text-muted text-nowrap">{{.}}</p>
+                          {{end}} {{end}}
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      {{end}}
+  </div>
+
+  {{ if .Site.Params.socials.enabled }}
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <p class="text-center text-muted mb-4">
+        {{.Site.Params.contacts.socialCallToAction}}
+      </p>
+    </div>
+  </div>
+  <div class="row justify-content-around">
+    {{ range .Site.Params.socials.link }}
+    <div class="col-4 mb-4 d-flex justify-content-center">
+      <a href="{{ .link }}">
+        <i class="display-2 bi-{{ .name }} "></i>
+      </a>
+    </div>
+    {{ end}}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

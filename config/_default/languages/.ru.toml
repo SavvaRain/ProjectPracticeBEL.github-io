@@ -1,0 +1,138 @@
+disabled = false
+languageCode = 'ru'
+languageName = 'Русский'
+title = 'Остаточные Знания' # This will go in the Header as well
+copyright = """ \n
+""" # Please leave this here to give me and the tools i used some credit for the work, or BuyMeACoffee and change or remove the copyrightlink below :)
+contentDir = "content/ru"
+
+
+# Change single params to "false" to remove from rendering
+[params]
+  subtitle = "" # This goes in the header and in the site title
+  # PAGES
+  [params.homepage]
+    # Notice that SEO meta tags (what appears in google search results) can be set
+    # in individual pages frontmatters `/content/<page>`
+    ###
+    preTitle = 'Проект Московского Политеха: Автоматизация внутренних бизнес-процессов университета'
+    title = "| Остаточные знания"
+    # You can use some markdown safely here as long as you don't include line breaks
+    intro= """
+### Проект по разработке сайта-сервиса для более удобной и интуитивно понятной работы над проведением остаточных знаний в университете.
+___
+
+
+Долгое время проведение остаточных знаний считалось трудоёмким процессом: преподавателям и администрации прходится заполнять много отчётов и бумаг, согласовывать даты проведения проверки, а также выбирать группы для прохождения тестирования. На все эти действия из-за нехватки единого ресурса, тратится много времени и сил. **Этот проект спешит исправить ситуацию и предоставить сотрудникам университета удобную систему для проведения остаточных знаний.**
+        """
+    mainButton = "О проекте"
+    mainButtonRef = "about" # Just write the name or slug of the page here
+    secondButton = "Участники"
+    secondButtonRef = "contacts" # Just write the name or slug of the page here
+  # For the blog feed section (visible only if posts are rendered)
+    blogTitle = "Журнал"
+    blogButton= "Больше записей"
+
+[params.office]
+ title = "Участники"
+ title1 = "Лазарев Савва"
+ title2 = "Бобров Денис"
+ title3 = "Езерская Маргарита"
+ description1 = "Савва — один из дизайнеров сайта для проекта «Остаточные знания». Он отвечал за стилистику страниц, а именно общую цветовую палитру, шрифт, элементы страниц. Савва в ответе за все вопросы, связанные с общей стилистикой, однородностью страниц. Также он создал style-guide, которым пользовались все дизайнеры проекта. Его вклад в проект очень значим."
+ description2 = "Денис — один из дизайнеров сайта для проекта «Остаточные знания». Его главной работой стала страница с приказами, где отображается форма заполнения приказа, а также список приказов. Помимо этого, он также приложил свою дизайнерскую руку на другие страницы для роли Лица принимающего решения. Его вклад в проект очень значим."
+ description3 = "Маргарита — одна из дизайнеров сайта для проекта «Остаточные знания». Она отличилось своей профессиональной работой в области разработки страниц с графикой, например, иконками. Марго также исправляла недочёты других страниц для роли преподавателя и лица принимающего решения. Её вклад в проект очень значим."
+ buttonText = ""
+ buttonLink = "https://maps.app.goo.gl/LzsPzRkTYSZ8SF3y8" # google maps "share" link here (for button)
+
+[params.contacts]
+  title = "Ресурсы:"
+
+  intro = """
+  ___
+  #### 1. [Сайт Личного Кабинета Московского Политеха](https://e.mospolytech.ru/) | Дизайн для сайта остаточных знаний преимущественно основан на дизайне личного кабинета университета, чтобы сервисы имели отличительный стиль.
+  #### 2. [How to Create a Telegram Bot using Python](https://www.freecodecamp.org/news/how-to-create-a-telegram-bot-using-python/) | Технология для вариативной части проекта и спсооб её создания.
+  #### 3. [How to use Hugo](https://youtu.be/LIFvgrRxdt4) | Подробный гайд по использованию HUGO.
+  #### 4. [Сайт Московского Политеха](https://mospolytech.ru/) | Организация-партнёр нашего проекта на Проекстной Деятельности.
+  #### 5. [Дизайн проекта в Figma](https://www.figma.com/design/eoxrLNCFiCZi8D0VVF7q8e/%D0%9E%D1%81%D1%82%D0%B0%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B5-%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F-2025?node-id=0-1&p=f) | Текущий прогресс и наработки дизайна для разработанных ролей.
+  #### 6. [Подробный гайд по Figma](https://www.youtube.com/watch?v=kkThgsC1tnk&list=PL0lO_mIqDDFXUJfMPcm1ezfcYSOHNNCZ4&ab_channel=%D0%93%D0%BE%D1%88%D0%B0%D0%94%D1%83%D0%B4%D0%B0%D1%80%D1%8C) | Подробная серия гайдов, используемая для создание страниц.
+  #### 7. [Style Guide проекта](https://www.figma.com/design/eoxrLNCFiCZi8D0VVF7q8e/%D0%9E%D1%81%D1%82%D0%B0%D1%82%D0%BE%D1%87%D0%BD%D1%8B%D0%B5-%D0%B7%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F-2025?node-id=680-1526&t=OQ3C9BpmoxRvXJQV-4) | Стайл гайд содержит важные элементы стилистики сайта.
+  #### 8. [Приказ о проведении Остаточных Знаний](https://drive.google.com/file/d/19NUv9WxFBKyiZZU5FbI-Q-ogh3PbSQUy/view?clckid=bc8b407b) | Приказ даёт представление о внутренней работе сервеса.
+  ___
+  """
+
+  [params.contacts.form]
+    
+[params.services]
+  title = "О проекте"
+  description = """Целью проекта "Остаточные знания" является разработка онлайн-сервиса для отслеживания процесса проведения остаточных знаний работникам университета."""   
+  description2 = """В сервисе будут присутствовать функции: подтверждения, редактирования и отправка отчётов, возможность редактирование расписания и дат проведения тестирования, возможность просмотра и редактирование групп, проходящие тестирование, возможность составлять и отправлять приказы, согласовывать рабочие трудности и так далее."""
+  description3 = """Сервис будет выполнен в форме сайта, подобно личному кабинету Московского Политеха, с разными уровнями доступа для соответствующих ролей в университете. Через сайт можно будет не только принимать решения, связанные с остаточными знаниями, но также коммуницировать."""
+  description4 = """Для выполнения такой масштабной задачи, пришлось разделить участников проектов на три категории:"""
+
+  [params.services.list]
+    # You can add as much params.services.list.<N> as you like
+    [params.services.list.0]
+      title= "Frontend"
+      description= "Занимаются реализацией макета сайта и воплощением его функционаал."
+    [params.services.list.01]
+      title = "Backend"
+      description= "Занимаются серверной частью сайта, связью сайта с базами данных."
+    [params.services.list.02]
+      title = "Дизайнеры"
+      description= "Разрабатывают дизайн сайта, стилистику и приятный итерфейс."
+
+
+[params.schedules] # Time schedules (eg. your office openming hours)
+  enabledFooter = false # This will add the schedules on the footer too
+  enabledContacts = false # This will add the schedule to the contact page
+  title = "Office hours" # For contacts page only
+  [params.schedules.days]
+  # Use something like "Monday: 9-13" for each day
+  # if left empty it is disabled (default)
+    day1 = "Monday: 9am – 7pm"
+    day2 = "Tuesday: 9am – 7pm"
+    day3 = "Wednesday: 9am – 7pm"
+    day4 = "Thursday: 9am – 7pm"
+    day5 = "Friday: 9am – 7pm"
+    day6 = ""
+    day7 = ""
+
+[params.footer]
+  extraDescription1 = ""
+  extraDescription2 = ""
+  [params.footer.navigate]
+  heading = "Навигация"
+  [params.footer.contacts]
+  enabled = true # enables/disables the whole contacts section in footer
+  heading = ""
+  address = ""
+  mail = ""
+  mail2 = ""
+  phone = ""
+
+[params.notfound]
+  title = "404, страница не найдена :(" # text for 404 page
+
+[params.single] # for posts pages (visible only if posts are rendered)
+  similarContent= "Вам может понравится:"
+  toc= "Содержание"
+
+
+[menus]
+# PageRef should refer to the "translationKey" in `/content/<page>` frontmatter, names can be changed freely
+  [[menus.main]]
+  name = "Главная"
+  pageRef = "/"
+  weight = 1
+  [[menus.main]]
+  name = "О проекте"
+  pageRef = "pages/services"
+  weight = 2
+  [[menus.main]]
+  name = "Участники"
+  pageRef = "pages/office"
+  weight = 3
+  [[menus.main]]
+  name = "Ресурсы"
+  pageRef = "pages/contacts"
+  weight = 4

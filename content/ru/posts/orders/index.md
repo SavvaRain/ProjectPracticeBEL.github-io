@@ -2,7 +2,7 @@
 title: 'Макет страницы "приказы" для Лица Принимающего Решения'
 slug: 'order'
 tags: ['Дизайн', 'ЛПР', 'Бобров']
-summary: "Бобров Денис разработал дизайн-макет страницы для проекта 'Остаточные Знания', а именно макет 'Приказов' для роли, принимающей решения. Макет имеет все нужные функции, включая быстрый просмотр приказов, их редактирование и добавление. Пользователь может посмотреть все приказы менее, чем за минуту! Подробнее о функционале страницы, а также её разработке можно прочитать в посте." # This is what will be displayed as summary for the post (the theme will automatically generate one from the content you write in the post if left empty)
+summary: "Бобров Денис разработал дизайн-макет страницы для проекта Остаточные Знания, а именно макет Приказов для роли, принимающей решения. Макет имеет все нужные функции, включая быстрый просмотр приказов, их редактирование и добавление. Пользователь может посмотреть все приказы менее, чем за минуту! Подробнее о функционале страницы, а также её разработке можно прочитать в посте." # This is what will be displayed as summary for the post (the theme will automatically generate one from the content you write in the post if left empty)
 description: # This is what will be displayed as meta description (the theme will automatically grab it from summary if left empty)
 date: '2025-03-18T10:49:18+02:00'
 expiryDate: ''

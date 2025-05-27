@@ -5,8 +5,11 @@
     "\\config\\_default",
     "\\config\\_default\\languages",
     "\\content",
-    "\\content\\ru"
+    "\\content\\ru",
+    "\\content\\ru\\posts",
+    "\\content\\ru\\posts\\orders",
+    "\\content\\ru\\posts\\orders\\images"
   ],
-  "SelectedNode": "\\config\\_default\\languages\\.ru.toml",
+  "SelectedNode": "\\content\\ru\\posts\\orders\\index.md",
   "PreviewInSolutionExplorer": false
 }

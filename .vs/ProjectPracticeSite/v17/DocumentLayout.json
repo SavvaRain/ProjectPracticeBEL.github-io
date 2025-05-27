@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "W:\\Experiments\\ProjectPracticeSite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|W:\\Experiments\\ProjectPracticeSite\\content\\ru\\posts\\orders\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content\\ru\\posts\\orders\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|W:\\Experiments\\ProjectPracticeSite\\config\\_default\\languages\\.ru.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\_default\\languages\\.ru.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -19,15 +23,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "index.md",
+              "DocumentMoniker": "W:\\Experiments\\ProjectPracticeSite\\content\\ru\\posts\\orders\\index.md",
+              "RelativeDocumentMoniker": "content\\ru\\posts\\orders\\index.md",
+              "ToolTip": "W:\\Experiments\\ProjectPracticeSite\\content\\ru\\posts\\orders\\index.md",
+              "RelativeToolTip": "content\\ru\\posts\\orders\\index.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-05-27T07:30:32.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": ".ru.toml",
               "DocumentMoniker": "W:\\Experiments\\ProjectPracticeSite\\config\\_default\\languages\\.ru.toml",
               "RelativeDocumentMoniker": "config\\_default\\languages\\.ru.toml",
               "ToolTip": "W:\\Experiments\\ProjectPracticeSite\\config\\_default\\languages\\.ru.toml",
               "RelativeToolTip": "config\\_default\\languages\\.ru.toml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-05-16T15:16:49.423Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }
